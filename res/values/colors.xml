@@ -18,12 +18,12 @@
     <color name="holo_blue_darker">#2687aa</color>
     <color name="clock_color">#FFcecece</color>
     <color name="clock_shadow">#FF000000</color>
-    <color name="app_name">#FF88adf5</color>
+    <color name="app_name">#FFFFFF</color>
     <color name="app_name_selected">#FFb4cdff</color>
-    <color name="app_name_shadow">#00000000</color>
+    <color name="app_name_shadow">#FF000000</color>
     <color name="transparent">#00000000</color>
-    <color name="layer_name">#FFcecece</color>
-    <color name="layer_name_shadow">#AA000000</color>
+    <color name="layer_name">#CCCCCC</color>
+    <color name="layer_name_shadow">#FF000000</color>
     <color name="weather_temp_color">#FF88adf5</color>
     <color name="weather_temp_shadow">#FF000000</color>
     <color name="weather_day_color">#FFFF00</color>
