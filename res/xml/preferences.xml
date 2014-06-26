@@ -8,17 +8,17 @@
             android:summary="@string/preferences_general_clock_summary_checked"
             android:title="@string/preferences_general_clock_title" />
         <CheckBoxPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:key="general.weather"
             android:summary="@string/preferences_general_weather_summary_checked"
             android:title="@string/preferences_general_weather_title" />
 
         <CheckBoxPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:key="general.live_tv"
             android:summary="@string/preferences_general_livetv_summary_checked"
             android:title="@string/preferences_general_livetv_title" />
-        
+
         <Preference
             android:key="general.wallpaper"
             android:summary="@string/preferences_general_wallpaper_summary"

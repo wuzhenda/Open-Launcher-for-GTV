@@ -22,8 +22,8 @@
     <color name="app_name_selected">#FFb4cdff</color>
     <color name="app_name_shadow">#FF000000</color>
     <color name="transparent">#00000000</color>
-    <color name="layer_name">#CCCCCC</color>
-    <color name="layer_name_shadow">#FF000000</color>
+    <color name="layer_name">#000000</color>
+    <color name="layer_name_shadow">#FF444444</color>
     <color name="weather_temp_color">#FF88adf5</color>
     <color name="weather_temp_shadow">#FF000000</color>
     <color name="weather_day_color">#FFFF00</color>

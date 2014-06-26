@@ -44,9 +44,9 @@ import com.entertailion.android.launcher.weather.WeatherSet;
 
 /**
  * Application shared data.
- * 
+ *
  * @author leon_nicholls
- * 
+ *
  */
 public class LauncherApplication extends Application {
 
@@ -58,6 +58,7 @@ public class LauncherApplication extends Application {
 	private static final String WEATHER_COUNTRY_NAME = "weather.country_name";
 	private static final String WEATHER_COUNTRY_CODE = "weather.country_code";
 
+	private Typeface boldTypeface = null;
 	private Typeface lightTypeface = null;
 	private Typeface thinTypeface = null;
 	private Typeface mediumTypeface = null;
@@ -79,8 +80,21 @@ public class LauncherApplication extends Application {
 	}
 
 	/**
+	 * Get the bold typeface
+	 *
+	 * @param context
+	 * @return
+	 */
+	public Typeface getBoldTypeface(Context context) {
+		if (boldTypeface == null) {
+			boldTypeface = Typeface.createFromAsset(context.getAssets(), "fonts/Roboto-Bold.ttf");
+		}
+		return boldTypeface;
+	}
+
+	/**
 	 * Get the light typeface
-	 * 
+	 *
 	 * @param context
 	 * @return
 	 */
@@ -93,7 +107,7 @@ public class LauncherApplication extends Application {
 
 	/**
 	 * Get the thin typeface
-	 * 
+	 *
 	 * @param context
 	 * @return
 	 */
@@ -106,7 +120,7 @@ public class LauncherApplication extends Application {
 
 	/**
 	 * Get the medium typeface
-	 * 
+	 *
 	 * @param context
 	 * @return
 	 */
@@ -119,7 +133,7 @@ public class LauncherApplication extends Application {
 
 	/**
 	 * Get the italic typeface
-	 * 
+	 *
 	 * @param context
 	 * @return
 	 */
@@ -132,7 +146,7 @@ public class LauncherApplication extends Application {
 
 	/**
 	 * Get the weather data
-	 * 
+	 *
 	 * @return
 	 */
 	public WeatherSet getWeatherSet() {
@@ -141,7 +155,7 @@ public class LauncherApplication extends Application {
 
 	/**
 	 * Set the latest weather data
-	 * 
+	 *
 	 * @param weatherSet
 	 */
 	public void setWeatherSet(WeatherSet weatherSet) {
@@ -150,7 +164,7 @@ public class LauncherApplication extends Application {
 
 	/**
 	 * Get the location data.
-	 * 
+	 *
 	 * @return
 	 */
 	public LocationData getLocationData() {
@@ -207,7 +221,7 @@ public class LauncherApplication extends Application {
 
 	/**
 	 * Get the list of Android apps installed in the system.
-	 * 
+	 *
 	 * @return
 	 */
 	public ArrayList<ApplicationInfo> getApplications() {
@@ -220,7 +234,7 @@ public class LauncherApplication extends Application {
 
 	/**
 	 * Get the list of recent apps invoked by the user.
-	 * 
+	 *
 	 * @return
 	 */
 	public ArrayList<ApplicationInfo> getRecents() {

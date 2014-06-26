@@ -163,6 +163,7 @@ public class Launcher extends Activity implements OnItemSelectedListener, OnItem
 		connectToLauncherService();
 
 		Typeface lightTypeface = ((LauncherApplication) getApplicationContext()).getLightTypeface(this);
+        Typeface boldTypeface = ((LauncherApplication) getApplicationContext()).getBoldTypeface(this);
 		Typeface italicTypeface = ((LauncherApplication) getApplicationContext()).getItalicTypeface(this);
 
 		preferences = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
@@ -179,7 +180,7 @@ public class Launcher extends Activity implements OnItemSelectedListener, OnItem
 		itemName.setTypeface(lightTypeface);
 		lastItemName = "";
 		layerName = (TextView) findViewById(R.id.layer);
-		layerName.setTypeface(italicTypeface);
+		layerName.setTypeface(boldTypeface);
 		lastLayerName = "";
 		clock = (Clock) findViewById(R.id.clock);
 		weather = (Weather) findViewById(R.id.weather);
