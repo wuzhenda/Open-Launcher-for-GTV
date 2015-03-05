@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="100dip"
-    android:layout_height="100dip"
-    android:layout_gravity="center_horizontal"
-    android:scaleType="fitXY" />
-<!-- From: file:/Users/henrywu/360yunpan/Projects/Proj_I500/src/Open-Launcher-for-GTV/app/src/main/res/layout/wallpaper_item.xml -->
