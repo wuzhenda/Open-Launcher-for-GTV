@@ -1,0 +1,455 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* LICENSE.txt
+* README.md
+* app/
+* app/build.gradle
+* app/libs/
+* app/libs/android-query.jar
+* app/libs/commons-lang.jar
+* app/libs/jsoup.jar
+* app/libs/libGoogleAnalyticsV2.jar
+* app/src/
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/assets/
+* app/src/main/assets/fonts/
+* app/src/main/assets/fonts/Roboto-Black.ttf
+* app/src/main/assets/fonts/Roboto-BlackItalic.ttf
+* app/src/main/assets/fonts/Roboto-Bold.ttf
+* app/src/main/assets/fonts/Roboto-BoldCondensed.ttf
+* app/src/main/assets/fonts/Roboto-BoldCondensedItalic.ttf
+* app/src/main/assets/fonts/Roboto-BoldItalic.ttf
+* app/src/main/assets/fonts/Roboto-Condensed.ttf
+* app/src/main/assets/fonts/Roboto-CondensedItalic.ttf
+* app/src/main/assets/fonts/Roboto-Italic.ttf
+* app/src/main/assets/fonts/Roboto-Light.ttf
+* app/src/main/assets/fonts/Roboto-LightItalic.ttf
+* app/src/main/assets/fonts/Roboto-Medium.ttf
+* app/src/main/assets/fonts/Roboto-MediumItalic.ttf
+* app/src/main/assets/fonts/Roboto-Regular.ttf
+* app/src/main/assets/fonts/Roboto-Thin.ttf
+* app/src/main/assets/fonts/Roboto-ThinItalic.ttf
+* app/src/main/assets/spotlight_sites.js
+* app/src/main/assets/ustvcallsigns.csv
+* app/src/main/java/
+* app/src/main/java/com/
+* app/src/main/java/com/entertailion/
+* app/src/main/java/com/entertailion/android/
+* app/src/main/java/com/entertailion/android/launcher/
+* app/src/main/java/com/entertailion/android/launcher/BootReceiver.java
+* app/src/main/java/com/entertailion/android/launcher/Dialogs.java
+* app/src/main/java/com/entertailion/android/launcher/EasterEggActivity.java
+* app/src/main/java/com/entertailion/android/launcher/Launcher.java
+* app/src/main/java/com/entertailion/android/launcher/LauncherApplication.java
+* app/src/main/java/com/entertailion/android/launcher/LauncherService.java
+* app/src/main/java/com/entertailion/android/launcher/MainActivity.java
+* app/src/main/java/com/entertailion/android/launcher/PreferencesActivity.java
+* app/src/main/java/com/entertailion/android/launcher/apps/
+* app/src/main/java/com/entertailion/android/launcher/apps/AllAppsAdapter.java
+* app/src/main/java/com/entertailion/android/launcher/apps/ApplicationInfo.java
+* app/src/main/java/com/entertailion/android/launcher/apps/AppsAdapter.java
+* app/src/main/java/com/entertailion/android/launcher/apps/VirtualAppInfo.java
+* app/src/main/java/com/entertailion/android/launcher/appwidget/
+* app/src/main/java/com/entertailion/android/launcher/appwidget/CellLayout.java
+* app/src/main/java/com/entertailion/android/launcher/appwidget/DragController.java
+* app/src/main/java/com/entertailion/android/launcher/appwidget/DragScroller.java
+* app/src/main/java/com/entertailion/android/launcher/appwidget/DragSource.java
+* app/src/main/java/com/entertailion/android/launcher/appwidget/DragView.java
+* app/src/main/java/com/entertailion/android/launcher/appwidget/DropTarget.java
+* app/src/main/java/com/entertailion/android/launcher/appwidget/Folder.java
+* app/src/main/java/com/entertailion/android/launcher/appwidget/FolderInfo.java
+* app/src/main/java/com/entertailion/android/launcher/appwidget/IconCache.java
+* app/src/main/java/com/entertailion/android/launcher/appwidget/ItemInfo.java
+* app/src/main/java/com/entertailion/android/launcher/appwidget/LauncherAppWidgetHost.java
+* app/src/main/java/com/entertailion/android/launcher/appwidget/LauncherAppWidgetHostView.java
+* app/src/main/java/com/entertailion/android/launcher/appwidget/SymmetricalLinearTween.java
+* app/src/main/java/com/entertailion/android/launcher/appwidget/TweenCallback.java
+* app/src/main/java/com/entertailion/android/launcher/appwidget/Utilities.java
+* app/src/main/java/com/entertailion/android/launcher/appwidget/Workspace.java
+* app/src/main/java/com/entertailion/android/launcher/bookmark/
+* app/src/main/java/com/entertailion/android/launcher/bookmark/BookmarkAdapter.java
+* app/src/main/java/com/entertailion/android/launcher/bookmark/BookmarkInfo.java
+* app/src/main/java/com/entertailion/android/launcher/database/
+* app/src/main/java/com/entertailion/android/launcher/database/DatabaseHelper.java
+* app/src/main/java/com/entertailion/android/launcher/database/ItemsTable.java
+* app/src/main/java/com/entertailion/android/launcher/database/RecentAppsTable.java
+* app/src/main/java/com/entertailion/android/launcher/database/RowsTable.java
+* app/src/main/java/com/entertailion/android/launcher/database/SpotlightTable.java
+* app/src/main/java/com/entertailion/android/launcher/item/
+* app/src/main/java/com/entertailion/android/launcher/item/AllItemAdapter.java
+* app/src/main/java/com/entertailion/android/launcher/item/ItemAdapter.java
+* app/src/main/java/com/entertailion/android/launcher/item/ItemInfo.java
+* app/src/main/java/com/entertailion/android/launcher/row/
+* app/src/main/java/com/entertailion/android/launcher/row/RowAdapter.java
+* app/src/main/java/com/entertailion/android/launcher/row/RowInfo.java
+* app/src/main/java/com/entertailion/android/launcher/shortcut/
+* app/src/main/java/com/entertailion/android/launcher/shortcut/InstallShortcutReceiver.java
+* app/src/main/java/com/entertailion/android/launcher/shortcut/ShortcutInfo.java
+* app/src/main/java/com/entertailion/android/launcher/spotlight/
+* app/src/main/java/com/entertailion/android/launcher/spotlight/AllSpotlightAdapter.java
+* app/src/main/java/com/entertailion/android/launcher/spotlight/ProcessSpotlight.java
+* app/src/main/java/com/entertailion/android/launcher/spotlight/SpotlightInfo.java
+* app/src/main/java/com/entertailion/android/launcher/spotlight/SpotlightReceiver.java
+* app/src/main/java/com/entertailion/android/launcher/utils/
+* app/src/main/java/com/entertailion/android/launcher/utils/Analytics.java
+* app/src/main/java/com/entertailion/android/launcher/utils/FastBitmapDrawable.java
+* app/src/main/java/com/entertailion/android/launcher/utils/HttpRequestHelper.java
+* app/src/main/java/com/entertailion/android/launcher/utils/LocationData.java
+* app/src/main/java/com/entertailion/android/launcher/utils/Utils.java
+* app/src/main/java/com/entertailion/android/launcher/wallpaper/
+* app/src/main/java/com/entertailion/android/launcher/wallpaper/LiveWallpaperChooser.java
+* app/src/main/java/com/entertailion/android/launcher/wallpaper/StaticWallpaperChooser.java
+* app/src/main/java/com/entertailion/android/launcher/wallpaper/WallpaperActivity.java
+* app/src/main/java/com/entertailion/android/launcher/wallpaper/WallpaperGalleryImageAdapter.java
+* app/src/main/java/com/entertailion/android/launcher/wallpaper/WallpaperInfo.java
+* app/src/main/java/com/entertailion/android/launcher/weather/
+* app/src/main/java/com/entertailion/android/launcher/weather/NoaaWeatherHandler.java
+* app/src/main/java/com/entertailion/android/launcher/weather/ProcessWeather.java
+* app/src/main/java/com/entertailion/android/launcher/weather/WeatherCurrentCondition.java
+* app/src/main/java/com/entertailion/android/launcher/weather/WeatherForecastCondition.java
+* app/src/main/java/com/entertailion/android/launcher/weather/WeatherReceiver.java
+* app/src/main/java/com/entertailion/android/launcher/weather/WeatherSet.java
+* app/src/main/java/com/entertailion/android/launcher/widget/
+* app/src/main/java/com/entertailion/android/launcher/widget/Clock.java
+* app/src/main/java/com/entertailion/android/launcher/widget/CustomAbsSpinner.java
+* app/src/main/java/com/entertailion/android/launcher/widget/CustomAdapterView.java
+* app/src/main/java/com/entertailion/android/launcher/widget/EcoGallery.java
+* app/src/main/java/com/entertailion/android/launcher/widget/GalleryAdapter.java
+* app/src/main/java/com/entertailion/android/launcher/widget/ObservableScrollView.java
+* app/src/main/java/com/entertailion/android/launcher/widget/RowGallery.java
+* app/src/main/java/com/entertailion/android/launcher/widget/ScrollViewListener.java
+* app/src/main/java/com/entertailion/android/launcher/widget/Weather.java
+* app/src/main/res/
+* app/src/main/res/anim/
+* app/src/main/res/anim/fade_in.xml
+* app/src/main/res/anim/fade_out.xml
+* app/src/main/res/anim/layout_fade_in.xml
+* app/src/main/res/anim/move_down.xml
+* app/src/main/res/anim/move_up.xml
+* app/src/main/res/anim/zoom.xml
+* app/src/main/res/drawable-nodpi/
+* app/src/main/res/drawable-nodpi/airplane.jpg
+* app/src/main/res/drawable-nodpi/airplane_small.jpg
+* app/src/main/res/drawable-nodpi/black.jpg
+* app/src/main/res/drawable-nodpi/black_small.jpg
+* app/src/main/res/drawable-nodpi/blue.jpg
+* app/src/main/res/drawable-nodpi/blue_small.jpg
+* app/src/main/res/drawable-nodpi/earth_night.jpg
+* app/src/main/res/drawable-nodpi/earth_night_small.jpg
+* app/src/main/res/drawable-nodpi/lines.jpg
+* app/src/main/res/drawable-nodpi/lines_small.jpg
+* app/src/main/res/drawable-nodpi/moon.jpg
+* app/src/main/res/drawable-nodpi/moon_small.jpg
+* app/src/main/res/drawable-nodpi/saturn.jpg
+* app/src/main/res/drawable-nodpi/saturn_small.jpg
+* app/src/main/res/drawable-nodpi/startrails.jpg
+* app/src/main/res/drawable-nodpi/startrails_small.jpg
+* app/src/main/res/drawable-nodpi/tower.jpg
+* app/src/main/res/drawable-nodpi/tower_small.jpg
+* app/src/main/res/drawable-xhdpi/
+* app/src/main/res/drawable-xhdpi/all_apps.png
+* app/src/main/res/drawable-xhdpi/arrow_down.png
+* app/src/main/res/drawable-xhdpi/arrow_up.png
+* app/src/main/res/drawable-xhdpi/arrows.png
+* app/src/main/res/drawable-xhdpi/bg_appwidget_error.9.png
+* app/src/main/res/drawable-xhdpi/bookmark_icon.png
+* app/src/main/res/drawable-xhdpi/bookmarks.png
+* app/src/main/res/drawable-xhdpi/browser_history.png
+* app/src/main/res/drawable-xhdpi/channel_abc.png
+* app/src/main/res/drawable-xhdpi/channel_cbs.png
+* app/src/main/res/drawable-xhdpi/channel_cw.png
+* app/src/main/res/drawable-xhdpi/channel_daystar.png
+* app/src/main/res/drawable-xhdpi/channel_fox.png
+* app/src/main/res/drawable-xhdpi/channel_ion.png
+* app/src/main/res/drawable-xhdpi/channel_mynetwork.png
+* app/src/main/res/drawable-xhdpi/channel_nbc.png
+* app/src/main/res/drawable-xhdpi/channel_pbs.png
+* app/src/main/res/drawable-xhdpi/channel_tbn.png
+* app/src/main/res/drawable-xhdpi/channel_telefutura.png
+* app/src/main/res/drawable-xhdpi/channel_telemundo.png
+* app/src/main/res/drawable-xhdpi/channel_univision.png
+* app/src/main/res/drawable-xhdpi/cloudy1.png
+* app/src/main/res/drawable-xhdpi/cloudy1_night.png
+* app/src/main/res/drawable-xhdpi/cloudy2.png
+* app/src/main/res/drawable-xhdpi/cloudy2_night.png
+* app/src/main/res/drawable-xhdpi/cloudy3.png
+* app/src/main/res/drawable-xhdpi/cloudy3_night.png
+* app/src/main/res/drawable-xhdpi/cloudy4.png
+* app/src/main/res/drawable-xhdpi/cloudy4_night.png
+* app/src/main/res/drawable-xhdpi/cloudy5.png
+* app/src/main/res/drawable-xhdpi/easter_egg.png
+* app/src/main/res/drawable-xhdpi/empty.png
+* app/src/main/res/drawable-xhdpi/fog.png
+* app/src/main/res/drawable-xhdpi/fog_night.png
+* app/src/main/res/drawable-xhdpi/gallery_item_down.9.png
+* app/src/main/res/drawable-xhdpi/gallery_item_over.9.png
+* app/src/main/res/drawable-xhdpi/gallery_item_up.9.png
+* app/src/main/res/drawable-xhdpi/hail.png
+* app/src/main/res/drawable-xhdpi/hide_all_applications.png
+* app/src/main/res/drawable-xhdpi/home_bg.png
+* app/src/main/res/drawable-xhdpi/ic_launcher_allhide.png
+* app/src/main/res/drawable-xhdpi/ic_launcher_allshow.png
+* app/src/main/res/drawable-xhdpi/ic_launcher_home.png
+* app/src/main/res/drawable-xhdpi/ic_menu_add.png
+* app/src/main/res/drawable-xhdpi/ic_menu_clipboard.png
+* app/src/main/res/drawable-xhdpi/ic_menu_cone.png
+* app/src/main/res/drawable-xhdpi/ic_menu_cupcake.png
+* app/src/main/res/drawable-xhdpi/ic_menu_delete.png
+* app/src/main/res/drawable-xhdpi/ic_menu_glasses.png
+* app/src/main/res/drawable-xhdpi/ic_menu_heart.png
+* app/src/main/res/drawable-xhdpi/ic_menu_left_right.png
+* app/src/main/res/drawable-xhdpi/ic_menu_lollipop.png
+* app/src/main/res/drawable-xhdpi/ic_menu_pizza.png
+* app/src/main/res/drawable-xhdpi/ic_menu_rattle.png
+* app/src/main/res/drawable-xhdpi/ic_menu_rocket.png
+* app/src/main/res/drawable-xhdpi/ic_menu_row_name.png
+* app/src/main/res/drawable-xhdpi/ic_menu_settings.png
+* app/src/main/res/drawable-xhdpi/ic_menu_trash.png
+* app/src/main/res/drawable-xhdpi/ic_menu_up_down.png
+* app/src/main/res/drawable-xhdpi/ic_menu_widget.png
+* app/src/main/res/drawable-xhdpi/light_rain.png
+* app/src/main/res/drawable-xhdpi/livetv.png
+* app/src/main/res/drawable-xhdpi/menu.png
+* app/src/main/res/drawable-xhdpi/mist.png
+* app/src/main/res/drawable-xhdpi/mist_night.png
+* app/src/main/res/drawable-xhdpi/notifications.png
+* app/src/main/res/drawable-xhdpi/overcast.png
+* app/src/main/res/drawable-xhdpi/show_all_applications.png
+* app/src/main/res/drawable-xhdpi/shower1.png
+* app/src/main/res/drawable-xhdpi/shower1_night.png
+* app/src/main/res/drawable-xhdpi/shower2.png
+* app/src/main/res/drawable-xhdpi/shower2_night.png
+* app/src/main/res/drawable-xhdpi/shower3.png
+* app/src/main/res/drawable-xhdpi/sleet.png
+* app/src/main/res/drawable-xhdpi/snow1.png
+* app/src/main/res/drawable-xhdpi/snow1_night.png
+* app/src/main/res/drawable-xhdpi/snow2.png
+* app/src/main/res/drawable-xhdpi/snow2_night.png
+* app/src/main/res/drawable-xhdpi/snow3.png
+* app/src/main/res/drawable-xhdpi/snow3_night.png
+* app/src/main/res/drawable-xhdpi/snow4.png
+* app/src/main/res/drawable-xhdpi/snow5.png
+* app/src/main/res/drawable-xhdpi/spotlight.png
+* app/src/main/res/drawable-xhdpi/spotlight_adc.png
+* app/src/main/res/drawable-xhdpi/spotlight_adultswim.png
+* app/src/main/res/drawable-xhdpi/spotlight_aiotv.png
+* app/src/main/res/drawable-xhdpi/spotlight_aljazeera.png
+* app/src/main/res/drawable-xhdpi/spotlight_amazoninstantvideo.png
+* app/src/main/res/drawable-xhdpi/spotlight_amazonvideo.png
+* app/src/main/res/drawable-xhdpi/spotlight_amos.png
+* app/src/main/res/drawable-xhdpi/spotlight_amostv.png
+* app/src/main/res/drawable-xhdpi/spotlight_animetv.png
+* app/src/main/res/drawable-xhdpi/spotlight_asiancrush.png
+* app/src/main/res/drawable-xhdpi/spotlight_baeblemusic.png
+* app/src/main/res/drawable-xhdpi/spotlight_bglive.png
+* app/src/main/res/drawable-xhdpi/spotlight_bliptv.png
+* app/src/main/res/drawable-xhdpi/spotlight_cartoonnetwork.png
+* app/src/main/res/drawable-xhdpi/spotlight_chow.png
+* app/src/main/res/drawable-xhdpi/spotlight_classicaltv.png
+* app/src/main/res/drawable-xhdpi/spotlight_clicker.png
+* app/src/main/res/drawable-xhdpi/spotlight_cnet.png
+* app/src/main/res/drawable-xhdpi/spotlight_cnn.png
+* app/src/main/res/drawable-xhdpi/spotlight_comedytime.png
+* app/src/main/res/drawable-xhdpi/spotlight_crackle.png
+* app/src/main/res/drawable-xhdpi/spotlight_cspan.png
+* app/src/main/res/drawable-xhdpi/spotlight_cspanvideolibrary.png
+* app/src/main/res/drawable-xhdpi/spotlight_dailymotion.png
+* app/src/main/res/drawable-xhdpi/spotlight_entbay.png
+* app/src/main/res/drawable-xhdpi/spotlight_epix.png
+* app/src/main/res/drawable-xhdpi/spotlight_euronews.png
+* app/src/main/res/drawable-xhdpi/spotlight_flixster.png
+* app/src/main/res/drawable-xhdpi/spotlight_focusfeatures.png
+* app/src/main/res/drawable-xhdpi/spotlight_fraboom.png
+* app/src/main/res/drawable-xhdpi/spotlight_funnyordie.png
+* app/src/main/res/drawable-xhdpi/spotlight_googletvhelp.png
+* app/src/main/res/drawable-xhdpi/spotlight_grab.png
+* app/src/main/res/drawable-xhdpi/spotlight_grabgames.png
+* app/src/main/res/drawable-xhdpi/spotlight_guardianfortv.png
+* app/src/main/res/drawable-xhdpi/spotlight_hbogo.png
+* app/src/main/res/drawable-xhdpi/spotlight_huffingtonpost.png
+* app/src/main/res/drawable-xhdpi/spotlight_ign.png
+* app/src/main/res/drawable-xhdpi/spotlight_iheartradio.png
+* app/src/main/res/drawable-xhdpi/spotlight_khanacademy.png
+* app/src/main/res/drawable-xhdpi/spotlight_kontroltv.png
+* app/src/main/res/drawable-xhdpi/spotlight_kqed.png
+* app/src/main/res/drawable-xhdpi/spotlight_mediawall.png
+* app/src/main/res/drawable-xhdpi/spotlight_meegenius.png
+* app/src/main/res/drawable-xhdpi/spotlight_metacafe.png
+* app/src/main/res/drawable-xhdpi/spotlight_metatube.png
+* app/src/main/res/drawable-xhdpi/spotlight_moshcam.png
+* app/src/main/res/drawable-xhdpi/spotlight_mspot.png
+* app/src/main/res/drawable-xhdpi/spotlight_mspotmovies.png
+* app/src/main/res/drawable-xhdpi/spotlight_musicbaeble.png
+* app/src/main/res/drawable-xhdpi/spotlight_netaporter.png
+* app/src/main/res/drawable-xhdpi/spotlight_netaportercom.png
+* app/src/main/res/drawable-xhdpi/spotlight_newslook.png
+* app/src/main/res/drawable-xhdpi/spotlight_newyorktimes.png
+* app/src/main/res/drawable-xhdpi/spotlight_nhl.png
+* app/src/main/res/drawable-xhdpi/spotlight_npr.png
+* app/src/main/res/drawable-xhdpi/spotlight_oreilly.png
+* app/src/main/res/drawable-xhdpi/spotlight_partycentral.png
+* app/src/main/res/drawable-xhdpi/spotlight_pbskids.png
+* app/src/main/res/drawable-xhdpi/spotlight_playjam.png
+* app/src/main/res/drawable-xhdpi/spotlight_pokerfun.png
+* app/src/main/res/drawable-xhdpi/spotlight_raaga.png
+* app/src/main/res/drawable-xhdpi/spotlight_redbull.png
+* app/src/main/res/drawable-xhdpi/spotlight_redbulltv.png
+* app/src/main/res/drawable-xhdpi/spotlight_redux.png
+* app/src/main/res/drawable-xhdpi/spotlight_revision3.png
+* app/src/main/res/drawable-xhdpi/spotlight_russiantv.png
+* app/src/main/res/drawable-xhdpi/spotlight_sec.png
+* app/src/main/res/drawable-xhdpi/spotlight_shortform.png
+* app/src/main/res/drawable-xhdpi/spotlight_sidereel.png
+* app/src/main/res/drawable-xhdpi/spotlight_slingplayer.png
+* app/src/main/res/drawable-xhdpi/spotlight_snagfilms.png
+* app/src/main/res/drawable-xhdpi/spotlight_soundtracker.png
+* app/src/main/res/drawable-xhdpi/spotlight_tbs.png
+* app/src/main/res/drawable-xhdpi/spotlight_theastrologer.png
+* app/src/main/res/drawable-xhdpi/spotlight_thecontent.png
+* app/src/main/res/drawable-xhdpi/spotlight_theguardian.png
+* app/src/main/res/drawable-xhdpi/spotlight_thekaraokechannel.png
+* app/src/main/res/drawable-xhdpi/spotlight_thenewcontent.png
+* app/src/main/res/drawable-xhdpi/spotlight_theonion.png
+* app/src/main/res/drawable-xhdpi/spotlight_thisweekin.png
+* app/src/main/res/drawable-xhdpi/spotlight_tnt.png
+* app/src/main/res/drawable-xhdpi/spotlight_tourfactory.png
+* app/src/main/res/drawable-xhdpi/spotlight_triviatv.png
+* app/src/main/res/drawable-xhdpi/spotlight_tunein.png
+* app/src/main/res/drawable-xhdpi/spotlight_uinterview.png
+* app/src/main/res/drawable-xhdpi/spotlight_usatoday.png
+* app/src/main/res/drawable-xhdpi/spotlight_vanguard.png
+* app/src/main/res/drawable-xhdpi/spotlight_vanguardcinema.png
+* app/src/main/res/drawable-xhdpi/spotlight_vevo.png
+* app/src/main/res/drawable-xhdpi/spotlight_vimeo.png
+* app/src/main/res/drawable-xhdpi/spotlight_watchmojo.png
+* app/src/main/res/drawable-xhdpi/spotlight_wedraw.png
+* app/src/main/res/drawable-xhdpi/spotlight_weteli.png
+* app/src/main/res/drawable-xhdpi/spotlight_xoscollegesports.png
+* app/src/main/res/drawable-xhdpi/spotlight_xossports.png
+* app/src/main/res/drawable-xhdpi/sunny.png
+* app/src/main/res/drawable-xhdpi/sunny_night.png
+* app/src/main/res/drawable-xhdpi/tstorm1.png
+* app/src/main/res/drawable-xhdpi/tstorm1_night.png
+* app/src/main/res/drawable-xhdpi/tstorm2.png
+* app/src/main/res/drawable-xhdpi/tstorm2_night.png
+* app/src/main/res/drawable-xhdpi/tstorm3.png
+* app/src/main/res/drawable-xhdpi/wallpapers.png
+* app/src/main/res/drawable-xhdpi/windy.png
+* app/src/main/res/drawable/
+* app/src/main/res/drawable/gallery_selector.xml
+* app/src/main/res/drawable/gradient_bottom.xml
+* app/src/main/res/drawable/gradient_top.xml
+* app/src/main/res/layout/
+* app/src/main/res/layout/about.xml
+* app/src/main/res/layout/add_apps_grid.xml
+* app/src/main/res/layout/add_browser_bookmarks_list.xml
+* app/src/main/res/layout/alert.xml
+* app/src/main/res/layout/all_apps_grid_item.xml
+* app/src/main/res/layout/apps_grid.xml
+* app/src/main/res/layout/appwidget_error.xml
+* app/src/main/res/layout/bookmarks_list.xml
+* app/src/main/res/layout/clock_widget.xml
+* app/src/main/res/layout/confirmation.xml
+* app/src/main/res/layout/dock.xml
+* app/src/main/res/layout/easter_egg.xml
+* app/src/main/res/layout/gallery_widget.xml
+* app/src/main/res/layout/introduction.xml
+* app/src/main/res/layout/list_row.xml
+* app/src/main/res/layout/main.xml
+* app/src/main/res/layout/row_item.xml
+* app/src/main/res/layout/row_list.xml
+* app/src/main/res/layout/select_row.xml
+* app/src/main/res/layout/simple_spinner_dropdown_item.xml
+* app/src/main/res/layout/simple_spinner_item.xml
+* app/src/main/res/layout/spotlight_grid.xml
+* app/src/main/res/layout/spotlight_grid_item.xml
+* app/src/main/res/layout/wallpaper.xml
+* app/src/main/res/layout/wallpaper_chooser.xml
+* app/src/main/res/layout/wallpaper_item.xml
+* app/src/main/res/layout/wallpapers_item.xml
+* app/src/main/res/layout/weather_widget.xml
+* app/src/main/res/values-ko/
+* app/src/main/res/values-ko/strings.xml
+* app/src/main/res/values/
+* app/src/main/res/values/analytics.xml
+* app/src/main/res/values/arrays.xml
+* app/src/main/res/values/attrs.xml
+* app/src/main/res/values/colors.xml
+* app/src/main/res/values/config.xml
+* app/src/main/res/values/dimensions.xml
+* app/src/main/res/values/strings.xml
+* app/src/main/res/values/styles.xml
+* app/src/main/res/values/transparent_style.xml
+* app/src/main/res/xml/
+* app/src/main/res/xml/preferences.xml
+* build.gradle
+* feature.xcf
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* icons.xcf
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/android-query.jar => app/libs/android-query.jar
+* libs/commons-lang.jar => app/libs/commons-lang.jar
+* libs/jsoup.jar => app/libs/jsoup.jar
+* libs/libGoogleAnalyticsV2.jar => app/libs/libGoogleAnalyticsV2.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

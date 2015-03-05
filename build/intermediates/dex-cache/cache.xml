@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/henrywu/360yunpan/Projects/Proj_I500/src/Open-Launcher-for-GTV/app/libs/commons-lang.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="905075e6c80f206bbe6cf1e809d2caa69f420c76">
+        <dex dex="/Users/henrywu/360yunpan/Projects/Proj_I500/src/Open-Launcher-for-GTV/app/build/intermediates/pre-dexed/debug/commons-lang-7ae413edb3e2657b7acd6e12910b2c4d14852578.jar" />
+    </item>
+    <item
+        jar="/Users/henrywu/360yunpan/Projects/Proj_I500/src/Open-Launcher-for-GTV/app/libs/libGoogleAnalyticsV2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8d04da1c73876c93ccce8ffd39add84f9415b64c">
+        <dex dex="/Users/henrywu/360yunpan/Projects/Proj_I500/src/Open-Launcher-for-GTV/app/build/intermediates/pre-dexed/debug/libGoogleAnalyticsV2-04e7d49d5a31116e059eb3e06d8e61ad748e9bef.jar" />
+    </item>
+    <item
+        jar="/Users/henrywu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/henrywu/360yunpan/Projects/Proj_I500/src/Open-Launcher-for-GTV/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-1cf42bbb76f18da5137399d9cc88ccc07cf07b7b.jar" />
+    </item>
+    <item
+        jar="/Users/henrywu/360yunpan/Projects/Proj_I500/src/Open-Launcher-for-GTV/app/libs/android-query.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ba206e350a14cb87b2f586a59e7780f3fed315d9">
+        <dex dex="/Users/henrywu/360yunpan/Projects/Proj_I500/src/Open-Launcher-for-GTV/app/build/intermediates/pre-dexed/debug/android-query-e121ab92436e7773f0692aab378dacf73b3a4ba2.jar" />
+    </item>
+    <item
+        jar="/Users/henrywu/360yunpan/Projects/Proj_I500/src/Open-Launcher-for-GTV/app/libs/jsoup.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3ed782721068a6f6a4a537a20fdf7096686c4742">
+        <dex dex="/Users/henrywu/360yunpan/Projects/Proj_I500/src/Open-Launcher-for-GTV/app/build/intermediates/pre-dexed/debug/jsoup-0fecf7cb034f62c8976d955e3307e02e5f730ef9.jar" />
+    </item>
+
+</items>
